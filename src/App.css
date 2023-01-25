@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgb(154, 120, 154) 0%,
+    rgb(255, 255, 255) 100%
+  )
+}
+.kart img{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.kart {
+  
+  text-align: center;
+  display: flex;
+    flex-direction: column;
+    background-color: #ce2186;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    margin: 20px;
+}
+
+.kart-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  height: 20px;
+  width: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-top: 50px;
+}
+.kart:hover {
+  transform: scale(1.05);
+}
+.app-title{
+  margin-top:75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  color:#000000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  text-align: center;
+}
+.search-box {
+  margin: 50px;
+  border: 3px;
+  outline: none;
+  padding: 25px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  text-align:center;
+  margin: auto;
+  background-color:rgb(255, 255, 255);
+  font-size: 60px;
+  border-radius: 30px;
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
